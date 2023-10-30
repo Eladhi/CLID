@@ -27,13 +27,13 @@ pip install git+https://github.com/salaniz/pycocoevalcap
 
 First update _config_denoise.py_ with the correct data and pretrained model paths.
 
-The hierarchy above $_C.data_dir$ should contain two folders.
+The hierarchy above $ _C.data_dir $ should contain two folders.
 The first is region_feat_gvd_wo_bgd (downloaded in the previous section), containing the visual features.
-The second is the annotation folder (name defined by $_C.data_dir$), containing the annotations.
+The second is the annotation folder (name defined by $ _C.data_dir $), containing the annotations.
 
 |── Data parent folder\
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|── region_feat_gvd_wo_bgd (containing feature files)\
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|── $_C.data_dir$ (containing annotations)
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|── $ _C.data_dir $ (containing annotations)
 
 Note that we use a yacs configuration file, hence you may modify the config file or use command line arguments.
 A command line argument overrides the config file's one.
@@ -55,7 +55,7 @@ python train_denoise.py model_path <path_to_.pth> save_dir checkpoints_noisy sam
 You shall set the path to the test captions in _gt_caption_. 
 it is the path to a file named _id2captions_test.json_, which 
 will be created and located in the folder of the annotation files. 
-Hence, set it to $_C.data_dir$/id2captions_test.json.
+Hence, set it to $ _C.data_dir $/id2captions_test.json.
 
 In _model_path_, set the model you desire to infer.
 
