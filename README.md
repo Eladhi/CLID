@@ -74,7 +74,13 @@ samples_per_gpu 64
 Please consider citing our paper if the project helps your research.
 
 ```
-(Soon)
+@inproceedings{hirsch2024clid,
+  title={CLID: Controlled-Length Image Descriptions with Limited Data},
+  author={Hirsch, Elad and Tal, Ayellet},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={5531--5541},
+  year={2024}
+}
 ```
 
 ## Acknowledgements
