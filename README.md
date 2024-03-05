@@ -19,7 +19,7 @@ pip install git+https://github.com/salaniz/pycocoevalcap
 
 * Prepare MS-COCO data following this [link](https://github.com/LuoweiZhou/VLP#-data-preparation).
 
-* Prepare MS-COCO trusted and noisy annotation files, as in these files (soon).
+* Prepare MS-COCO trusted and noisy annotation files, as in these files ([link](https://technionmail-my.sharepoint.com/:f:/g/personal/eladhirsch_campus_technion_ac_il/EuVz0bhUlPVOgnliLcKl8bMB0s54qJNOFbsdxWJTrRtu5A?e=jM2iHz)).
 
 * Download the pretrained BERT model ([link](https://drive.google.com/file/d/1B3R2wTYeoiXdT4HsKj4EEdWPnKdZjF3L/view?usp=sharing)).
 
