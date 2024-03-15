@@ -14,7 +14,7 @@
 # $ wget -O detectron_weights/detectron_model.pth  https://dl.fbaipublicfiles.com/pythia/detectron_model/detectron_model.pth
 # $ wget -O detectron_weights/detectron_model.yaml  https://dl.fbaipublicfiles.com/pythia/detectron_model/detectron_model.yaml
 
-# NOTE: might need to modify the code in /content/vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/imports.py, change PY3 to PY37
+# NOTE: might need to modify the code in vqa-maskrcnn-benchmark/maskrcnn_benchmark/utils/imports.py, change PY3 to PY37
 ###################################################
 
 import argparse
